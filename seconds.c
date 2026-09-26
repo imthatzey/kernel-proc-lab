@@ -1,3 +1,16 @@
+/*
+ * seconds.c - Kernel module that reports seconds elapsed since load
+ *             via /proc/seconds.
+ *
+ * Developed and tested on:
+ *   Distributor ID: Ubuntu
+ *   Description:    Ubuntu 26.04.1 LTS
+ *   Release:        26.04
+ *   Codename:       resolute
+ *   Kernel version: 7.0.0-31-generic
+ */
+
+
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
